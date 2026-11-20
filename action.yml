@@ -1,5 +1,5 @@
 name: AuraOne EvalKit Quality Gate
-description: Score repository responses with AuraOne EvalKit and publish an inspectable advisory or blocking decision.
+description: LLM evaluation GitHub Action: score responses with AuraOne EvalKit and publish an advisory or blocking decision.
 author: AuraOne
 inputs:
   rubric-path: { required: true, description: "Path to the EvalKit rubric file in the checked-out workspace." }

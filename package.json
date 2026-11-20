@@ -2,14 +2,16 @@
   "name": "@auraone/evalkit-action",
   "version": "0.2.0",
   "private": false,
-  "description": "GitHub Action that runs AuraOne EvalKit rubric scoring and publishes threshold decisions with inspectable evidence.",
+  "description": "LLM evaluation GitHub Action that runs AuraOne EvalKit rubric scoring and publishes threshold decisions with inspectable evidence.",
   "repository": {
     "type": "git",
     "url": "https://github.com/auraoneai/evalkit-action.git"
   },
-  "homepage": "https://github.com/auraoneai/evalkit-action#readme",
-  "bugs": "https://github.com/auraoneai/evalkit-action/issues",
-  "keywords": ["github-action", "github-actions", "llm-evaluation", "evals", "rubric", "quality-gate", "llm-as-judge"],
+  "homepage": "https://auraone.ai/open/evalkit",
+  "bugs": {
+    "url": "https://github.com/auraoneai/evalkit-action/issues"
+  },
+  "keywords": ["github-action", "github-actions", "llm-evaluation", "llm-evaluation-github-action", "evals", "rubric", "quality-gate", "llm-as-judge"],
   "license": "MIT",
   "type": "module",
   "scripts": {
